@@ -1,0 +1,24 @@
+Module-3 : Node - Web Development with Node
+
+Q1. What is Express.js?
+--> Express is a node js web application framework that provides broad features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application. It's a layer built on the top of the Node js that helps manage servers and routes.
+
+Module-4 : Node - Node with Mongodb
+
+Q1. What is MongoDB.
+--> MongoDB is an open source NoSQL database management program. NoSQL (Not only SQL) is used as an alternative to traditional relational databases. NoSQL databases are quite useful for working with large sets of distributed data.
+
+Q2. What is difference between mongo DB and SQL
+--> MongoDB and SQL (Structured Query Language) are both types of database management systems, but they differ in their data models, query languages, and overall architectures. Here are some key differences between MongoDB and SQL:
+	
+>> Data Model:
+- MongoDB: MongoDB is a NoSQL database, specifically a document-oriented database. It stores data in a flexible, JSON-like format called BSON (Binary JSON), where each record is a document that can have nested structures.
+- SQL: SQL databases are relational databases that organize data into tables with predefined schemas. Each table consists of rows and columns, and relationships between tables are established using keys.
+
+>> Schema:
+MongoDB: MongoDB is schema-less, meaning that documents within a collection do not need to have the same structure. Fields can be added or removed without affecting other documents in the collection.
+SQL: SQL databases are schema-based, requiring a predefined schema that specifies the structure of each table. Changes to the schema can be complex and may require data migration.
+
+>> Query Language:
+- MongoDB: MongoDB uses a query language that is based on JavaScript and is designed for querying JSON-like documents. It supports a wide range of queries, including complex queries and aggregations.
+- SQL: SQL uses a standardized query language for relational databases. SQL queries are typically expressed using statements like SELECT, INSERT, UPDATE, and DELETE.
