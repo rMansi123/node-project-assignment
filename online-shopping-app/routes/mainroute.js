@@ -15,9 +15,7 @@ const upload = multer({ storage: storage });
 
 //add products in database
 routes.get("/",async(req,res)=>{
-    // res.render("index", {subject : "java"})
-
-    const data = await products.find()
+    const data = await products.find().sort({ name: 1 });
     res.render("products",{data})
 })
 
